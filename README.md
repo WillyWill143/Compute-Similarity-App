@@ -7,9 +7,9 @@ We developed helper functions (parse_people_csv and get_people_images) to parse 
 * Preprocessing Pipeline:
 We implemented a PreprocessingPipeline class that:
 
-Loads Images: Reads images from a file path or NumPy array.
-Face Detection & Alignment: Uses MTCNN to detect faces and extract the face region.
-Resizing and Normalization: Resizes the detected face to a consistent target size (e.g., 224×224) and normalizes pixel values to the [0,1] range.
+  * Loads Images: Reads images from a file path or NumPy array.
+  * Face Detection & Alignment: Uses MTCNN to detect faces and extract the face region.
+  * Resizing and Normalization: Resizes the detected face to a consistent target size (e.g., 224×224) and normalizes pixel values to the [0,1] range.
 2. Feature Extraction Using FaceNet
 Why FaceNet?
 FaceNet is a specialized model for face recognition that maps images to a 512-dimensional embedding space. It is designed so that embeddings of the same person are close together while embeddings of different people are far apart.

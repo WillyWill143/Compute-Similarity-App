@@ -1,4 +1,6 @@
 # Compute-Similarity-App
+The goal of this system is to take two images of faces as input and outputs a percentage of the similarity between those two faces, the code is still under development and will fine-tune the model on the lfw dataset in the future. if you have any advice regardin the code feel free to share your insights!
+Note: the readme has been written with the help of a chatbot.
 
 ### 1. Data Parsing and Preprocessing
 * Data Parsing:
